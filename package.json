@@ -1,0 +1,53 @@
+{
+  "name": "linkmagico-chatbot",
+  "version": "6.0.1-PRODUCAO",
+  "description": "IA Conversacional Inteligente para Vendas Online - LinkMágico Chatbot v6.0.1 com Instruções Seguras para Produção",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon server_v6.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot",
+    "ai",
+    "sales",
+    "conversational",
+    "automation",
+    "linkmagico",
+    "secure-instructions",
+    "production-ready"
+  ],
+  "author": "LinkMágico Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "1.6.2",
+    "cheerio": "1.0.0-rc.12",
+    "cloudscraper": "^4.6.0",
+    "cors": "2.8.5",
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "helmet": "7.1.0",
+    "mobile-detect": "^1.4.5",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.54.2",
+    "puppeteer": "^24.15.0",
+    "ua-parser-js": "^2.0.4",
+    "winston": "3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.2"
+  },
+  "engines": {
+    "node": "20.x" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU_USUARIO/SEU_NOVO_REPOSITORIO.git" 
+  },
+  "bugs": {
+    "url": "https://github.com/SEU_USUARIO/SEU_NOVO_REPOSITORIO/issues" 
+  },
+  "homepage": "https://github.com/SEU_USUARIO/SEU_NOVO_REPOSITORIO#readme" 
+}
+
